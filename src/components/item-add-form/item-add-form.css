@@ -1,0 +1,15 @@
+.item-add-form__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-add-form__input {
+    font-size: 21px;
+    height: auto;
+}
+
+.item-add-form__wrapper .btn-success {
+    margin-left: auto;
+    font-size: 21px;
+}

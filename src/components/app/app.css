@@ -1,0 +1,8 @@
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    max-width: 720px;
+    width: 100%;
+    margin: 20px auto 0;
+}

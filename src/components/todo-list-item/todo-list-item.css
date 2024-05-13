@@ -1,0 +1,32 @@
+.todo-list-item__wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.todo-list-item {
+    display: flex;
+    flex-grow: 1;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.todo-list-item__wrapper.important .todo-list-item {
+    font-weight: bold;
+    color: steelblue;
+}
+
+.button__wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.todo-list__btn {
+    width: 45px;
+}
+
+.done {
+    text-decoration: line-through;
+}
